@@ -6,7 +6,7 @@ public class MachineDTO {
 
 	private long trainnerId;
 
-	private boolean status;
+	private String machineStatus;
 
 	private String name;
 
@@ -30,13 +30,9 @@ public class MachineDTO {
 
 
 
-	public boolean isAvailable() {
-		return status;
-	}
 
-	public void setAvailable(boolean isAvailable) {
-		this.status = isAvailable;
-	}
+
+	
 
 	public String getName() {
 		return name;
@@ -52,6 +48,16 @@ public class MachineDTO {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+
+	
+
+	public String getMachineStatus() {
+		return machineStatus;
+	}
+
+	public void setMachineStatus(String machineStatus) {
+		this.machineStatus = machineStatus;
 	}
 	
 	

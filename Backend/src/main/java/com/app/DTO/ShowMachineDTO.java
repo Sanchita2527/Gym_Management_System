@@ -9,7 +9,7 @@ public class ShowMachineDTO {
 	
 	private double price;
 	
-	private boolean isAvaliable;
+	private String MachineStatus;
 
 	public String getName() {
 		return name;
@@ -35,13 +35,8 @@ public class ShowMachineDTO {
 		this.price = price;
 	}
 
-	public boolean isAvaliable() {
-		return isAvaliable;
-	}
 
-	public void setAvaliable(boolean isAvaliable) {
-		this.isAvaliable = isAvaliable;
-	}
+
 
 	public long getId() {
 		return id;
@@ -49,6 +44,16 @@ public class ShowMachineDTO {
 
 	public void setId(long id) {
 		this.id = id;
+	}
+
+	
+
+	public String getMachineStatus() {
+		return MachineStatus;
+	}
+
+	public void setMachineStatus(String machineStatus) {
+		MachineStatus = machineStatus;
 	}
 	
 	
